@@ -19,7 +19,8 @@ Feel free to contribute and add your most common commands as developer.
 | `chown -R USERNAME:GROUPNAME /PATH/TO/FILE` | Linux own a directory and subfolders  |
 | `cat /etc/os-release`                       | Find linux distro                     |
 | `ls -l`                                     | Find who owns a file or folder        |
-| `cat /etc/group`                            | Show all linux groups:                |
+| `cat /etc/group`                            | Show all linux groups                 |
+| `sudo vim /etc/hosts`                       | Edit hosts file                       |
 
 # Git
 | Command                           | Descripton          |
