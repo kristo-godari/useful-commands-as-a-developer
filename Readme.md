@@ -8,19 +8,21 @@ Feel free to contribute and add your most common commands as developer.
 
 ## Linux
 
-| Command                                     | Descripton                            |
-|---------------------------------------------|---------------------------------------|
-| `export NAME=VALUE`                         | Setting an Environment Variable       |
-| `eval "$(ssh-agent -s)"`                    | Start the ssh-agent in the background |
-| `ssh-add  ~/.ssh/id_ed25519`                | Adding ssh key to ssh                 |
-| `cat /etc/passwd`                           | List users in linux                   |
-| `crontab -l`                                | Show crontabs                         |
-| `crontab -e`                                | Edit crontabs                         |
-| `chown -R USERNAME:GROUPNAME /PATH/TO/FILE` | Linux own a directory and subfolders  |
-| `cat /etc/os-release`                       | Find linux distro                     |
-| `ls -l`                                     | Find who owns a file or folder        |
-| `cat /etc/group`                            | Show all linux groups                 |
-| `sudo vim /etc/hosts`                       | Edit hosts file                       |
+| Command                                     | Descripton                                |
+|---------------------------------------------|-------------------------------------------|
+| `export NAME=VALUE`                         | Setting an Environment Variable           |
+| `eval "$(ssh-agent -s)"`                    | Start the ssh-agent in the background     |
+| `ssh-add  ~/.ssh/id_ed25519`                | Adding ssh key to ssh                     |
+| `cat /etc/passwd`                           | List users in linux                       |
+| `crontab -l`                                | Show crontabs                             |
+| `crontab -e`                                | Edit crontabs                             |
+| `chown -R USERNAME:GROUPNAME /PATH/TO/FILE` | Linux own a directory and subfolders      |
+| `cat /etc/os-release`                       | Find linux distro                         |
+| `ls -l`                                     | Find who owns a file or folder            |
+| `cat /etc/group`                            | Show all linux groups                     |
+| `sudo vim /etc/hosts`                       | Edit hosts file                           |
+| `lsof -i tcp:80`                            | Find which process is running on port 80  |
+| `kill -9 PID`                               | Kill process with PID                     |
 
 # Git
 | Command                           | Descripton          |
